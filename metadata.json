@@ -1,0 +1,8 @@
+{
+  "name": "Lumina AI Design Studio",
+  "description": "A high-end AI-powered landing page and UI/UX generator for startups and enterprise teams.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
