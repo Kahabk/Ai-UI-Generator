@@ -1,12 +1,76 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img src="banner.png" alt="AI UI Generator Banner" width="1200" />
 </div>
+<p align="center">
+  <img src="banner.png" alt="AI UI Generator Banner" style="max-width:100%; height:auto;" />
+</p>
 
-# Run and deploy your AI Studio app
+# AI UI Generator (Gemini-powered)
 
-This contains everything you need to run your app locally.
+An **AI-powered full-stack application** that generates **complete landing page UI specifications** using Google Gemini.  
+The backend analyzes a user prompt and returns structured JSON, while the frontend consumes and renders the generated UI.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1N8-cPoK7c_-Dibt3s7lTEG1xcnKSknPj
+---
+
+## ✨ Key Features
+
+- AI-based intent understanding (industry, tone, theme)
+- Automatic landing page planning
+- Premium AI-generated marketing copy
+- Dark / Light theme generation
+- Modular UI sections (hero, services, workflow, CTA, etc.)
+- FastAPI backend
+- Frontend UI renderer (included in this repository)
+- JSON-first, frontend-agnostic architecture
+
+---
+
+## 🧠 System Overview
+
+1. User enters a prompt in the frontend
+2. Frontend sends request to FastAPI backend
+3. Backend uses Gemini to:
+   - Detect intent
+   - Plan page sections
+   - Generate copy
+   - Apply theming
+4. Backend returns structured JSON
+5. Frontend renders the UI dynamically
+
+---
+
+## 🏗️ Tech Stack
+
+### Backend
+- Python 3.10+
+- FastAPI
+- Pydantic
+- Google Gemini API
+- Requests
+- CORS Middleware
+
+### Frontend
+- Included in this repository
+- Consumes JSON response from backend
+- Renders dynamic UI sections
+
+---
+
+## 📁 Project Structure
+
+```text
+.
+├── backend/
+│   └── app.py
+├── frontend/
+│   ├── src/
+│   └── index.html
+├── banner.png
+├── README.md
+└── requirements.txt
+
+
+
 
 ## Run Locally
 
@@ -18,3 +82,4 @@ View your app in AI Studio: https://ai.studio/apps/drive/1N8-cPoK7c_-Dibt3s7lTEG
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+# Ai-UI-Generator
