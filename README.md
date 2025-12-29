@@ -1,9 +1,7 @@
 <div align="center">
   <img src="banner.png" alt="AI UI Generator Banner" width="1200" />
 </div>
-<p align="center">
-  <img src="banner.png" alt="AI UI Generator Banner" style="max-width:100%; height:auto;" />
-</p>
+
 
 # AI UI Generator (Gemini-powered)
 
